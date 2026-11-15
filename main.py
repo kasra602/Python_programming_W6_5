@@ -55,4 +55,5 @@ def main() -> None:
     displayResults(filename, results)
     print("Program ending.")
 
-main()
+if __name__ == "__main__":
+    main()
